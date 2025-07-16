@@ -12,8 +12,10 @@ async function fetchDefinition(word) {
   }
 }
 
+//Testing
+
 async function run() {
-  const definition = await fetchDefinition("examawdawijkple");
+  const definition = await fetchDefinition("");
   console.log(definition);  // Now you will see the resolved result
 }
 
