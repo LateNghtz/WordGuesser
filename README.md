@@ -23,7 +23,7 @@ Follow these steps to set up WordGuesser on your local machine:
 3. **Install Dependencies:**  
    If the game requires external libraries, ensure they are installed. For example:
    ```bash
-   node install electron
+   npm install electron
    ```
 
 ## How to Play
