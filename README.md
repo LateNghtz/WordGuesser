@@ -23,35 +23,15 @@ Follow these steps to set up WordGuesser on your local machine:
 3. **Install Dependencies:**  
    If the game requires external libraries, ensure they are installed. For example:
    ```bash
-   pip install -r requirements.txt
+   node install electron
    ```
 
 ## How to Play
 
 Start the game using the following command:
 ```bash
-python game.py
+npm run start
 ```
-
-Follow the instructions displayed to guess the secret word. You will have a limited number of attempts to guess the word correctly.
-
-### Example Gameplay:
-```plaintext
-Welcome to WordGuesser!
-Try to guess the secret word.
-Enter a letter: a
-Correct!
-Enter a letter: z
-Wrong guess. You have 4 attempts left.
-```
-
-## Contribution
-
-Want to contribute to WordGuesser? Here's how you can help:
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature-name`).
-3. Make your changes and commit them (`git commit -m "Your message"`).
-4. Submit a pull request.
 
 ## License
 
