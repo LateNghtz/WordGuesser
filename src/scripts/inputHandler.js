@@ -14,11 +14,22 @@ window.addEventListener("DOMContentLoaded", () => {
     try {
       const def = await fetchDefinition(input.value);
       console.log(def);
+      displaySolution(def[0].word);
     } catch (err) {
       console.error("Error fetching definition:", err);
     }
   }
 });
+
+function displaySolution(solution) {
+  const solutionElement = document.getElementById("solution");
+  if (solutionElement) {
+    solutionElement.textContent = `Solution: ${solution}`;
+  } else {
+    console.error("Solution element not found");
+  }
+  
+}
 
 
 });
