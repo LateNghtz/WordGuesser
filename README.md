@@ -7,7 +7,6 @@ WordGuesser is a fun and interactive word-guessing game where players attempt to
 - **Interactive Gameplay:** Players input guesses to reveal parts of the secret word, letter by letter.
 - **Limited Attempts:** Challenge yourself with a set number of guesses.
 - **Customizable:** Easily expand and modify the game to include new features.
-- **Beginner-Friendly:** Perfect for anyone learning Python or game development.
 
 ## Installation
 
